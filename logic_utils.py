@@ -38,6 +38,7 @@ def check_guess(guess, secret):
 
     outcome examples: "Win", "Too High", "Too Low"
     """
+#FIX: Resolved logic issue and Refactored logic into logic_utils.py using Copilot Agent mode
     if guess == secret:
         return "Win", "🎉 Correct!"
     if guess > secret:

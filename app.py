@@ -29,6 +29,7 @@ st.sidebar.caption(f"Attempts allowed: {attempt_limit}")
 
 if "secret" not in st.session_state:
     st.session_state.secret = random.randint(low, high)
+#FIX: Resolved logic issue and Refactored logic into logic_utils.py using Copilot Agent mode
 if "attempts" not in st.session_state:
     st.session_state.attempts = 0
 
