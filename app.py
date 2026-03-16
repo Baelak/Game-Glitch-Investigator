@@ -32,7 +32,7 @@ def parse_guess(raw: str):
 def check_guess(guess, secret):
     if guess == secret:
         return "Win", "🎉 Correct!"
-
+# FIXME: The bug occurs here
     try:
         if guess > secret:
             return "Too High", "📈 Go HIGHER!"
@@ -91,7 +91,7 @@ st.sidebar.caption(f"Attempts allowed: {attempt_limit}")
 
 if "secret" not in st.session_state:
     st.session_state.secret = random.randint(low, high)
-
+# FIXME: The bug occurs here
 if "attempts" not in st.session_state:
     st.session_state.attempts = 1
 
