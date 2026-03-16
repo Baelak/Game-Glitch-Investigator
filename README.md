@@ -25,13 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] The Game is a guessing game where you get 7 attempts to guess a number with hints to go higher or lower.
+- [ ] I found multiple bugs. Incorrect hints, Wrong attempts Counts, New Game button issue, Enter to apply doesn't work etc.
+- [ ] I was able to fix the Inccorect hints and Wrong Attempt counts to resolve those issues and correct the logic
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [alt text](Winning_Screenshot.jpg)
 
 ## 🚀 Stretch Features
 
